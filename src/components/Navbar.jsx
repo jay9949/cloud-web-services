@@ -7,7 +7,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-
+import { Link } from "react-scroll";
 import GreenBtn from "./GreenBtn";
 
 const Navbar = () => {
@@ -50,7 +50,10 @@ const Navbar = () => {
               key={id}
               className=" capitalize p-4 cursor-pointer hover:text-lightColor duration-200"
             >
-              {link}
+              <Link to={link} smooth duration={500}>
+                {" "}
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
@@ -106,7 +109,15 @@ const Navbar = () => {
                   key={id}
                   className=" text-4xl py-4 cursor-pointer tracking-wider hover:text-lightColor duration-200"
                 >
-                  {link}
+                  <Link
+                    onClick={() => setNavigation(false)}
+                    to={link}
+                    smooth
+                    duration={500}
+                  >
+                    {" "}
+                    {link}
+                  </Link>
                 </li>
               ))}
             </ul>

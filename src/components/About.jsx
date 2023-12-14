@@ -44,9 +44,9 @@ const About = () => {
           {details.map(({ id, title, subtitle }) => (
             <div
               key={id}
-              className="flex items-center justify-center odd:skew-x-12 even:-skew-x-12 hover:skew-x-0 duration-300"
+              className="flex items-center justify-center odd:skew-x-10 even:-skew-x-10  duration-100"
             >
-              <div className="flex flex-col items-center justify-center w-64 h-64 py-8 rounded-full shadow-lg shadow-lightColor">
+              <div className="flex flex-col items-center justify-center w-64 h-64 py-8 rounded-full hover:shadow-lg shadow-none hover:ease-in hover:duration-300 hover:shadow-lightColor">
                 <p className="text-5xl font-bold text-lightColor">{title}</p>
                 <p className="text-gray-400 mt-2 capitalize">{subtitle}</p>
               </div>

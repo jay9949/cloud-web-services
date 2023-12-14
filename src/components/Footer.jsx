@@ -12,16 +12,16 @@ const Footer = () => {
 
           <div className="w-3/4 md:w-1/2">
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in">
+              <div className="flex items-center p-3 justify-center rounded-lg hover:shadow-md shadow-none hover:ease-in hover:duration-300 hover:shadow-lightColor">
                 <FaFacebook size={25} />
               </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in">
+              <div className="flex items-center p-3 justify-center rounded-lg hover:shadow-md shadow-none hover:ease-in hover:duration-300 hover:shadow-lightColor">
                 <FaLinkedin size={25} />
               </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in">
+              <div className="flex items-center p-3 justify-center rounded-lg hover:shadow-md shadow-none hover:ease-in hover:duration-300 hover:shadow-lightColor">
                 <FaTwitter size={25} />
               </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer hover:scale-105 duration-200 ease-in">
+              <div className="flex items-center p-3 justify-center rounded-lg hover:shadow-md shadow-none hover:ease-in hover:duration-300 hover:shadow-lightColor">
                 <FaTwitch size={25} />
               </div>
             </div>
