@@ -45,7 +45,8 @@ const Support = () => {
           {supportLinks.map(({ id, title, subtitle, icon }) => (
             <div
               key={id}
-              className="bg-gray-900 text-white rounded-xl shadow-lg shadow-lightColor"
+              className="bg-gray-900 text-white rounded-xl hover:shadow-lg hover:shadow-lightColor hover:duration-700
+               duration-700"
             >
               <div className="p-8">
                 <div className="flex items-center justify-center w-16 h-16 p-4 bg-lightColor text-darkColor rounded-full mt-[-4rem]">
